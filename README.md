@@ -1,8 +1,8 @@
 # phpele
 php function echo element
 
-<?php
-  ```
+
+  ```php
   require_once './function/elephp.php';
   ```
   
