@@ -3,6 +3,9 @@
         header('Content-type:text/json');
         echo json_encode($re);
     }
+    function md5_salt($str,$salt='233'){
+    	return md5(md5($str).$salt);
+    }
     function ele_bootstrap(){
         echo "<meta charset=\"utf-8\">";
 	    echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">";
