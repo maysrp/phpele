@@ -2,8 +2,9 @@
 php function echo element
 
 <?php
-```
+  ```
   require_once './function/elephp.php';
+  ```
   
   $mo=[];    
   
