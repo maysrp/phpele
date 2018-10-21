@@ -4,7 +4,6 @@ php function echo element
 
   ```php
   require_once './function/elephp.php';
-  ```
   
   $mo=[];    
   
@@ -21,10 +20,10 @@ php function echo element
   
   ele_table($mo,['class'=>'table'],['name','date','date','age']);
   
+  #HTML
+  #<h1 class='h1' id='h1' style='color:#FAA'>hello world</h1>
   
-  <h1 class='h1' id='h1' style='color:#FAA'>hello world</h1>
-  
-  equal
+  #equal
   
   ele_s('h1',['class'=>'h1','id'=>'h1','style'=>'color:#FAA']);
   
@@ -32,7 +31,7 @@ php function echo element
   
   ele_e('h1')
   
-  or
+  #or
   
   ele_q('h1',['class'=>'h1','id'=>'h1','style'=>'color:#FAA'],"hello world");
 
