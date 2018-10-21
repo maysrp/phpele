@@ -3,7 +3,7 @@ php function echo element
 
 
   ```php
-  require_once './function/elephp.php';
+  require_once 'elephp.php';
   
   $mo=[];    
   
