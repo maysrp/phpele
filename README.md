@@ -2,7 +2,7 @@
 php function echo element
 
 <?php
-
+```
   require_once './function/elephp.php';
   
   $mo=[];    
@@ -34,3 +34,5 @@ php function echo element
   or
   
   ele_q('h1',['class'=>'h1','id'=>'h1','style'=>'color:#FAA'],"hello world");
+
+```
